@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags always come first-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+    <title>915help</title>
+
+</head>
+
+<body>
+
+
+         
+
+<headera>
+    
+  
+  
+ 
+</headera>
+
+        <!--navbar -->  
+ <nav class="navbar navbar-expand-lg fixed-top ">  
+    <!--<a class="navbar-brand" href="#">Need help?</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+    <span class="navbar-toggler-icon"></span>
+   </button> --> 
+   
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalLabel">
+    Need help? 
+  </button>
+
+  
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModalLabel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <section class="mb-4">
+
+
+
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p>
+            
+                <div class="row">
+            
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5 container center_div">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            
+                            <!--Grid row-->
+                            <div class="row">
+            
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+            
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+            
+                            </div>
+                            <!--Grid row-->
+            
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+            
+                            <!--Grid row-->
+                            <div class="row">
+            
+                                <!--Grid column-->
+                                <div class="col-md-12">
+            
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <!--Grid row-->
+            
+                        </form>
+            
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+            
+                    
+                    <!--Grid column-->
+            
+                </div>
+            
+            </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
+    <li class="nav-item">
+        <a class="nav-link" data-value="buyerssellers" href="buyer.html">Buyers/Sellers</a>        </li>  
+   <li class="nav-item">
+       <a class="nav-link active" data-value="calculators"href="#">Calculators</a>    
+    </li>
+    <li class="nav-item"> 
+       <a class="nav-link " data-value="forms" href="forms.html">Forms</a>         </li>   
+   <li class="nav-item">  
+      <a class="nav-link " data-value="glossary" href="https://www.915help.com/glossary.asp"> Glossary</a>       </li>  
+   <li class="nav-item"> 
+    <a class="nav-link " data-value="contact" href="contact.html">Contact</a>       </li> 
+   </ul> 
+   </div>
+</nav>
+
+<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+
+
+
+ 
+<!--about -->
+
+
+   <!--Material textarea-->
+   <div class="row">
+  <div class="col-md-12 mt-5">
+
+    <div id="mdb-lightbox-ui"></div>
+
+    <div class="mdb-lightbox">
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                  
+
+      <figure class="col-md-12">
+        <p>Mortgage Calculator </p>
+        <a href="https://www.chicagoagent.com/calc/mg/TnpjNU9BPT1ANjgxQHNoYXJlZA==" data-size="1600x1067">
+          <img alt="picture" src="image/calc1.jpg" class="img-fluid">
+        </a>
+      </figure>
+
+      <figure class="col-md-4">
+        <p>Affordability Calculator </p>
+        <a href="https://www.chicagoagent.com/calc/ma/TnpjNU9BPT1ANjc1QHNoYXJlZA==" data-size="1600x1067">
+          <img alt="picture" src="image/calc2.jpg" class="img-fluid" />
+        </a>
+
+      </figure>
+
+      <figure class="col-md-4">
+        <p> Qualify Calculator </p>
+        <a href="https://www.chicagoagent.com/app/calculator/qf/TnpjNU9BPT1AZko3d0Q=" data-size="1600x1067">
+          <img alt="picture" src="image/calc3.jpg" class="img-fluid" />
+        </a>
+      </figure>
+    </div>
+<div class="container"> 
+    <div class="row">
+        <div class="col">
+
+      <figure class="col-md-4 offset-md-4">
+        <p> Rent vs. Buy Calculator </p>
+        <a href="https://www.chicagoagent.com/calc/rvb/TnpjNU9BPT1ANjc2QHNoYXJlZA==" data-size="1600x1067">
+          <img alt="picture" src="image/calc4.jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4 offset-md-4">
+        <p>Equity Calculator </p>
+        <a href="https://www.chicagoagent.com/calc/eq/TnpjNU9BPT1ANjc4QHNoYXJlZA==" data-size="1600x1067">
+          <img alt="picture" src="image/calc5.jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-4 offset-md-4">
+        <p>Net Sheet Calculator </p>
+        <a href="https://www.chicagoagent.com/calc/ns/TnpjNU9BPT1ANjc3QHNoYXJlZA==" data-size="1600x1067">
+          <img alt="picture" src="image/calc6.jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+ 
+    </div>
+
+  </div>
+</div>
+
+
+   <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">Equal Housing Opportunity </h5>
+          <p>This material is based on information which we consider reliable, but because it has been supplied by third parties, we cannot represent that it is accurate or complete and should not be relied on as such. This offering is subject to errors, omissions, change of price or withdrawal without notice. | The information contained in this website is provided as reference only. While this information is believed to be correct, currency of information is subject to change and no liability is assumed for any loss occurring by reason of reliance thereon.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+    
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Copyrights</a>
+            </li>
+            <li>
+              <a href="#!">Privacy</a>
+            </li>
+            <li>
+              <a href="#!">Terms of use</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+      <div class=" text-center">
+        <h5>Social</h5>
+        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                class="fa fa-instagram"></i></a>
+        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                class="fa fa-twitter"></i></a>
+        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                class="fa fa-youtube"></i></a>
+    </div>
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> https://AmberLee.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+
+
+
+
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+
+
+</body>
+
+</html>

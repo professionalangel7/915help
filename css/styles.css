@@ -1,0 +1,365 @@
+body {
+    font-family: "Open Sans", sans-serif; }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Lobster", cursive; }
+  
+  h2 {
+    color: #3046C5; }
+
+
+
+  header h2 {
+    color: #CEC8FF; }
+  
+  /*header style
+
+  .header{
+    background-image: url('../image/car.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    background-image: linear-gradient(white);
+   } 
+
+ .car {
+  display:block;
+  position:absolute;
+  float:right;
+  bottom:0;
+  right:0;
+ }
+ */
+
+  .site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0; }
+  
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #3046C5, #5637dd, #60106b);
+    color: white; }
+  
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; }
+
+    .navbar{ background:rgb(21, 75, 25);}
+
+    .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+    
+    .nav-link{ margin-right: 1em !important;}
+    
+    .nav-link:hover{ background: #f4f4f4; color: #f97300; }
+    
+    .navbar-collapse{ justify-content: flex-end;}
+    
+    .navbar-toggler{  background:#fff !important;}
+  
+  /*.navbar {
+    background-color: #901CAD;} */
+
+    .box {
+      background-color: rgb(151, 151, 151);
+      opacity: 0.5;
+  
+    }
+
+    .description{
+      position: absolute;
+      top: 30%;
+      margin: auto;
+      padding: 2em;
+      background-color: black;
+      opacity: .2;
+ 
+      
+  }
+  .textbox h1{
+   color:#F97300 ;
+  }
+  .description p{
+   color:rgb(177, 175, 175);
+   font-size: 20px;
+   width: 50%;
+   line-height: 1.5;
+  }
+  .description button{
+   border:1px  solid #F97300;
+   background:#F97300;
+   color:#fff;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); }
+  
+  .carousel {
+    border: solid #5637dd; }
+  
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  
+  #reserveModal .modal-header {
+    background-color: #17A2B8;
+    color: #CEC8FF; }
+  
+  #loginModal .modal-header {
+    background-color: #901CAD;
+    color: #CEC8FF; }
+  
+
+
+
+    /*
+.bg-dark{
+  background-color:#343a40!important
+  }
+  .bg-primary{
+  background-color:#007bff!important
+  } */ 
+
+  .about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+   .about h1{
+    color:#F97300;
+    margin: 2em;
+   }
+   .about img{
+    height: 100%;
+       width: 100%;
+       border-radius: 50%
+   }
+   .about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+   }
+   .about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+   }
+   .about .desc h3{
+    color: #10828C;
+   }
+   .about .desc p{
+    line-height:2;
+    color:#888;
+   }
+
+   .team{
+    margin: 4em 0;
+    position: relative;  
+   }
+   .team h1{
+    color:rgb(21, 75, 25);
+    margin: 2em; 
+   }
+   .team .item{
+    position: relative;
+   }
+   .team .des{
+    background: rgb(21, 75, 25);
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+    
+   }
+
+   header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  headera {
+    position: relative;
+    background-color: white;
+    height: 15vh;
+    min-height: 25rem;
+    width: 80%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0)87, 172, 172);
+    opacity: 0.0;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+    .center_div{
+      margin: 0 auto;
+      width:80% /* value of your choice which suits your alignment */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+  }
+

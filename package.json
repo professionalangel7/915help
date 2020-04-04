@@ -1,0 +1,50 @@
+{
+  "name": "915help",
+  "version": "1.0.0",
+  "description": "This is a website for an escrow agent",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run watch:all",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amber Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "2.0.0",
+    "imagemin-cli": "3.0.0",
+    "lite-server": "2.3.0",
+    "node-sass": "4.13.1",
+    "onchange": "3.3.0",
+    "parallelshell": "3.0.1",
+    "popper.js": "1.16.1",
+    "rimraf": "2.6.2",
+    "usemin-cli": "0.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "bootstrap-social": "5.1.1",
+    "font-awesome": "4.7.0",
+    "jquery": "3.4.1",
+    "wget": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/professionalangel7/professionalangel7-gmail.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/professionalangel7/professionalangel7-gmail.com/issues"
+  },
+  "homepage": "https://github.com/professionalangel7/professionalangel7-gmail.com#readme"
+
+}
+
+
